@@ -1,3 +1,35 @@
-h1 {
-  color: blue;
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
+
+body.bg-secondary {
+  background: #fdfdfd;
+}
+
+canvas.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas.framed {
+  background-color: white;
+  box-sizing: border-box;
+  display: block;
+  width: 80vmin;
+  height: 80vmin;
+  margin: auto;
+  margin-top: 10vmin;
+  margin-bottom: 10vmin;
+  border: 8vmin solid white;
+  box-shadow: 0px 12px 80px -20px rgba(0, 0, 0, 0.126);
+}
+
+canvas.square {
+  display: block;
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
 }
